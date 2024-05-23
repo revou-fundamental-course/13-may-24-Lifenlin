@@ -42,3 +42,39 @@
     border: 0px;
 }
 
+#luas {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    font-family: system-ui;
+    background: white;
+    border: 0px;
+}
+
+.gambar-rumus {
+    width: 350px;
+    height:auto;
+}
+
+.tulisanaja {
+    font-family: system-ui;
+    color: #16558f;
+}
+
+.ini-tulisan-rumus {
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    font-family: system-ui;
+}
+
+form>button {
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #16558f;
+    border: white;
+    font-family: system-ui;
+    align-items: center;
+}

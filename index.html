@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Matematik Jivi</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="header-content">
@@ -24,7 +25,103 @@
             <h2> Segitiga </h2>
         </div>
 
-        <button type="button" id="keliling">Keliling Segitiga</button>
+        <button type="button" id="keliling" onclick="hideOrShow ()">Keliling Segitiga</button>
+        <button type="button" id="luas">Luas Segitiga</button>
+
+        <section id="luas-section">
+            <section>
+                <div class="section-content"> 
+                    <h2>Luas Segitiga</h2>
+                </div>
+    
+                <div class="gambar-rumus">
+                <img src="https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png">
+                </div>
+    
+                <div class="tulisanaja">
+                    <h3>Rumus Luas Segitiga
+                        <div class="ini-tulisan-rumus">
+                            L = 1/2 x a x t
+                        </div>
+                        <p>Keterangan :</p>
+                        <p>L : Luas</p>
+                        <p>a : Alas</p>
+                        <p>t : tinggi</p>
+                    </h3>
+                </div>
+            </section>
+            <hr/>
+            <section>
+                <header>
+                    <h2 style="font-family: system-ui;">Hitung Luas Segitiga</h2>
+                </header>
+
+                <form>
+                    <section class="input">
+                        <div>
+                            <label>Alas:</label><input style="width: 100%;"/>
+                        </div>
+                        <div>
+                            <label>Tinggi:</label><input style="width: 100%;"/>
+                        </div>
+                    </section>
+
+                    <p>L = 1/2 x a x t</p>
+
+                    <button type="button">Hitung</button>
+                    <button type="button">Reset</button>
+                </form>
+            </section>
+
+            <section id="keliling-section" style="padding-top: 32px;">
+                <section>
+                    <div class="section-content"> 
+                        <h2>Keliling Segitiga</h2>
+                    </div>
+        
+                    <div class="gambar-rumus">
+                    <img src="https://o-cdn-cas.sirclocdn.com/parenting/images/DB761D86-B41E-49A1-AF26-6EE30BD8A.width-800.format-webp.webp">
+                    </div>
+        
+                    <div class="tulisanaja">
+                        <h3>Rumus Keliling Segitiga
+                            <div class="ini-tulisan-rumus">
+                                K = S1 + S2 + S3
+                            </div>
+                            <p>Keterangan :</p>
+                            <p>K : Keliling</p>
+                            <p>S1 : Sisi 1</p>
+                            <p>S2 : Sisi 2</p>
+                            <p>S3 : Sisi 3</p>
+                        </h3>
+                    </div>
+                </section>
+                <hr/>
+                <section>
+                    <header>
+                        <h2 style="font-family: system-ui;">Hitung Keliling Segitiga</h2>
+                    </header>
+    
+                    <form>
+                        <section class="input">
+                            <div>
+                                <label>S1:</label><input style="width: 100%;"/>
+                            </div>
+                            <div>
+                                <label>S2:</label><input style="width: 100%;"/>
+                            </div>
+                            <div>
+                                <label>S3:</label><input style="width: 100%;"/>
+                            </div>
+                        </section>
+    
+                        <p>K = S1 + S2 + S3</p>
+    
+                        <button type="button">Hitung</button>
+                        <button type="button">Reset</button>
+                    </form>
+                </section>
+        </section>
     </section>
 </body>
 </html>
